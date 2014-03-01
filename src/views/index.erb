@@ -1,0 +1,14 @@
+<ul id="todo-list" class="unstyled">
+  <% @items.each do |item| %>
+  <li id="<%= item[:id] %>">
+  <span class="item">
+  <%= item[:done] ? "<del>#{item[:in_filename]}</del>" : item[:in_filename] %>
+  </span>
+  <span class="pull-right">
+  <a href="#" class="btn done"><%= item[:done] ? "Not done" : "Done"%></a>
+  <a href="/delete/<%= item[:id] %>" class="btn btn-danger">Delete</a>
+  </span>
+  </li>
+  <% end %>
+</ul>
+<a href="/upload" class="btn btn-primary">upload pics</a>
