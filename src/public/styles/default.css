@@ -1,0 +1,37 @@
+/**
+ * @fie default.css
+ * @author Hirokazu Yokoyama <s1131039@edu.gifu-u.ac.jp>
+ * */
+
+/* フォント，フォントサイズと色 */
+body {
+	font-family: "ヒラギノ角ゴ Pro W3", "メイリオ", "ＭＳ Ｐゴシック", sans-serif;
+	background: white;
+	color: #222;
+}
+pre, code { 
+	font-family: Consolas, "Andale Mono", Inconsolata, monospace, "Courier New"; 
+	color: #222;
+}
+h1 { font-size: 160%; }
+h2 { font-size: 150%; }
+h3 { font-size: 140%; }
+h4 { font-size: 130%; }
+h5 { font-size: 130%; }
+h6 { font-size: 120%; }
+a:link { color: blue;}
+a:visited {color: #00AADD;}
+
+/* 余白とインデント */
+body { margin: 0px; padding: 0px; }
+h2, h3, h4, h5, h6, p, ul, ol, dl, table { margin: 1em 0px; }
+p { text-indent: 1em; }
+div { margin: 0px, padding: 0px; }
+ul, ol, dl { padding: 0px; }
+
+/* 行 */
+h1, h2, h3, h4, h5, h6 { line-height: 150%; }
+p { line-height: 130%; }
+
+/* 枠線 */
+img { border: None; }

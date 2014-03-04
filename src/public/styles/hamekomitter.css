@@ -1,0 +1,36 @@
+/**
+ * @file hamekomitter.css
+ * @author Hirokazu Yokoyama	
+ * */
+
+body {
+	
+}
+
+ul#TemplateList {
+	list-style-type: none;
+	display: table;
+	width: 100%;	
+	margin: 0px;
+	padding: 0px;
+}
+
+ul#TemplateList li {
+	display: table-cell;
+	margin: 0px;
+	padding: 0px;
+}
+
+ul#TemplateList a {	
+	display: block;
+	border: solid 1px;
+	width: 320px;	
+	padding: 0px;
+	line-height: 100%;
+}
+
+#TemplateList li a img {
+	display: inline;
+	width: 320px;
+	padding: 0px;
+}
